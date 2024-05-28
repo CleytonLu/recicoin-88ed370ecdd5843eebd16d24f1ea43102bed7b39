@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Recicoin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/teladelogin.css">
+    <link rel="stylesheet" href="CSS/header.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="imgs/logo-recicoin.jpg" alt="Recicoin Logo">
+        </div>
+    </header>
+
+    <div class="login-container">
+        <h2>Cadastre-se</h2>
+        <form class="form" >
+            <input type="text" name="name" placeholder="Nome" class="login-input" required id="nome">
+            <input type="email" name="email" placeholder="E-mail" class="login-input" >
+            <input type="password" name="password" placeholder="Senha" class="login-input" required>
+            <input type="password" name="password" placeholder="Confirme a senha" class="login-input" required>
+            <input type="text" name="cpf" placeholder="CPF (somente números)" class="login-input" required pattern="\d{11}">
+            <input type="date" name="birthday" placeholder="Data de Nascimento" class="login-input" required>
+
+
+            <button type="submit" class="login-btn" onclick="location.href='http://127.0.0.1:5500/mapa.html';"> Cadastre-se </button>
+            
+            <div class="login-form-footer">
+                <p>Já tem uma conta? <a href="teladelogin.html">Faça o login</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="JavaScript/cadastro.js"></script>
+    
+</body>
+</html>
+

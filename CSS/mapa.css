@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.map-image {
+    width: 80%; /* Ajuste conforme necessário para um tamanho adequado */
+    max-width: 800px; /* Limita o tamanho máximo */
+    height: auto;
+    padding-top: 70px ;
+}
+
+.location-info {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.welcome{
+    position: relative;
+    height: 5em;
+    text-align: center;
+
+
+}
+.content{
+     
+    font-size: 30px;
+}
+.fav-btn{
+    
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 16px;
+
+}
+
+.fav-btn:hover {
+    background-color: #367c39;
+}
+.meu-botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 16px;
+}
+
+.meu-botao:hover {
+    background-color: #367c39;
+}
+
+
+.link{
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+   
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+   
+}
+a:hover{
+    border-bottom: 3px solid #367c39 ;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
